@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/7.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <title>OBEY</title>
+    <style>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;display:flex;
+            justify-content: center;
+    align-items: center;
+        }
+        .ascii pre {
+            background-color:transparent;
+            border:none;
+            color: white;
+            text-align:center;
+            padding: 10px 0;
+        }
+        .ascii > * {
+          position:relative;
+          top:25px;
+        }
+        .content {
+            padding: 20px;
+            min-height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="overlays" onclick="playMedia()">
+        <div id="overlay-text">Click anywhere to enter...</div>
+      </div>
+    <div class="ascii">
+        <pre>
+$$$$$$\  $$$$$$$\  $$$$$$$$\ $$\     $$\ 
+$$  __$$\ $$  __$$\ $$  _____|\$$\   $$  |
+$$ /  $$ |$$ |  $$ |$$ |       \$$\ $$  / 
+$$ |  $$ |$$$$$$$\ |$$$$$\      \$$$$  /  
+$$ |  $$ |$$  __$$\ $$  __|      \$$  /   
+$$ |  $$ |$$ |  $$ |$$ |          $$ |    
+$$$$$$  |$$$$$$$  |$$$$$$$$\     $$ |    
+\______/ \_______/ \________|    \__|    
+        </pre>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="profcont">
+            <div class="window profwin glass active">
+                <div class="title-bar">
+                  <div class="title-bar-text">Obey.exe</div>
+                  <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                  </div>
+                </div>
+                <div class="window-body profbody has-space">
+                    <img src="/images/obey.jpg" style="height:120px;border-radius:5px;">
+                    <h5><strong>Obey</strong></h5>
+                    <p>tayeks naughty little princess</p>
+                    <a href="https://t.me/a22cw" style="z-index:9999!important;" target="_blank"><img style="height:25px;margin-top:-50px;" src="/icon/telegram.png"></a>
+                </div>
+              </div>
+        </div></div>
+    </div>
+    <div class="audwin" style="max-width: 650px">
+      <div class="audio-controls">
+        <p style="font-size:13px;margin-bottom:5px;">Now Playing:</p>
+          <div id="songInfo" class="text-center">
+              <div id="artist">Artist</div>&nbsp;-&nbsp;<div id="songTitle">Song</div>
+          </div>
+          <div class="controls" style="margin-top:10px;margin-bottom:7px;">
+              <a onclick="previousAudio()" style="margin-right:10px;"><img src="/icon/back.png"></a>
+              <a id="playPauseButton" onclick="togglePlayPause()" style="margin-right:10px;"><img src="/icon/pause.png"></a>
+              <a onclick="nextAudio()"><img src="/icon/next.png"></a>
+          </div>
+      </div>
+    <audio id="audio"></audio>
+    <script src="/js/mzik.js"></script>
+</body>
+</html>
