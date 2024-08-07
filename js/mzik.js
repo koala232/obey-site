@@ -82,11 +82,6 @@ artist: "MAKAVELIGODD",
 song: "GOOSEBUMPS!"
 },
 {
-src: "https://files.catbox.moe/b8idq4.mp3",
-artist: "James Bandz",
-song: "ogusers gg"
-},
-{
 src: "https://files.catbox.moe/s0n3kf.mp3",
 artist: "SEMATARY",
 song: "COP KILLER (FT. GHOST MOUNTAIN)"
@@ -95,11 +90,6 @@ song: "COP KILLER (FT. GHOST MOUNTAIN)"
 src: "https://files.catbox.moe/fka4xx.mp3",
 artist: "Powers Pleasant",
 song: "Evil Twin feat. Denzel Curry & ZillaKami"
-},
-{
-src: "https://files.catbox.moe/userix.mp3",
-artist: "James Bandz",
-song: "Pinned Paste"
 },
 {
 src: "https://files.catbox.moe/en6l8m.mp3",
