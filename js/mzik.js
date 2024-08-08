@@ -2,9 +2,9 @@ var audio = document.getElementById("audio");
 var playPauseButton = document.getElementById("playPauseButton");
 var audioFiles = [
 {
-src: "https://files.catbox.moe/skikkm.mp3",
-artist: "Yeat",
-song: "Wat U Want 2"
+src: "https://files.catbox.moe/c8eid0.mp3",
+artist: "A-Train",
+song: "Messages From The Stars"
 },
 ];
 
