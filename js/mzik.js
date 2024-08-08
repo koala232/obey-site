@@ -62,11 +62,6 @@ artist: "6 Dogs",
 song: "Mazi Love"
 },
 {
-src: "https://files.catbox.moe/9b0h4j.mp3",
-artist: "6 Dogs",
-song: "beautiful whips"
-},
-{
 src: "https://files.catbox.moe/idwajf.mp3",
 artist: "$UICIDEBOY$",
 song: "I Deleted Facebook a Long Time Ago"
@@ -102,14 +97,14 @@ artist: "Nascar Aloe",
 song: "DEGENERATE FUCK"
 },
 {
+src: "https://files.catbox.moe/gpahcr.mp3",
+artist: "Nascar Aloe",
+song: "DEGENERATE FUCK"
+},
+{
     src: "https://files.catbox.moe/w7r9ow.mp3",
     artist: "HACKLE",
     song: "GUNSMITH"
-    },
-{
-    src: "https://files.catbox.moe/hfyyyv.mp3",
-    artist: "BUCKSHOT",
-    song: "IF I HAD A GUN"
 }
 ];
 
